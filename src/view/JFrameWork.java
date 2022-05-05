@@ -43,16 +43,17 @@ public class JFrameWork extends javax.swing.JFrame {
                 bnt_prosseguirActionPerformed(evt);
             }
         });
-        getContentPane().add(bnt_prosseguir, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, 160, 50));
+        getContentPane().add(bnt_prosseguir, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 480, 160, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/TRABALHO-JAVA .png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, 0, 610, 610));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Tela BEMVINDO.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 610));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void bnt_prosseguirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bnt_prosseguirActionPerformed
-
+        TelaInicial proximo = new TelaInicial();
+        proximo.setVisible(true);
     }//GEN-LAST:event_bnt_prosseguirActionPerformed
 
     /**

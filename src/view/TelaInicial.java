@@ -27,14 +27,37 @@ public class TelaInicial extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(602, 602));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("JAVA ÓDIO");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 70, 40));
+        jButton2.setBackground(new java.awt.Color(0, 0, 51));
+        jButton2.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 51));
+        jButton2.setText("SAIR");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, 160, 50));
+
+        jButton3.setBackground(new java.awt.Color(0, 51, 204));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, 40, 40));
+
+        jButton4.setBackground(new java.awt.Color(0, 51, 255));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, 40, 40));
+
+        jButton5.setBackground(new java.awt.Color(0, 51, 204));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, 40, 40));
+
+        jButton6.setBackground(new java.awt.Color(0, 51, 255));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 40, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Tela OPCOES.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 600));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -75,6 +98,11 @@ public class TelaInicial extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
