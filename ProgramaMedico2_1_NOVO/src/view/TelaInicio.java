@@ -1,21 +1,22 @@
-package view;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package view;
+
+import view.FormRegistroMedico;
 
 /**
  *
  * @author w10
  */
-public class JFrameWork extends javax.swing.JFrame {
+public class TelaInicio extends javax.swing.JFrame {
 
     /**
-     * Creates new form JFrameWork
+     * Creates new form TelaInicio
      */
-    public JFrameWork() {
+    public TelaInicio() {
         initComponents();
     }
 
@@ -28,33 +29,32 @@ public class JFrameWork extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        bnt_prosseguir = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(600, 600));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        bnt_prosseguir.setBackground(new java.awt.Color(51, 0, 51));
-        bnt_prosseguir.setForeground(new java.awt.Color(255, 255, 0));
-        bnt_prosseguir.setText("PROSSEGUIR");
-        bnt_prosseguir.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setBackground(new java.awt.Color(102, 0, 102));
+        jButton1.setForeground(new java.awt.Color(204, 204, 0));
+        jButton1.setText("PROSSEGUIR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bnt_prosseguirActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(bnt_prosseguir, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 480, 160, 50));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 470, 160, 40));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Tela BEMVINDO.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 610));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 590));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void bnt_prosseguirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bnt_prosseguirActionPerformed
-        TelaInicial proximo = new TelaInicial();
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        FormRegistroMedico proximo = new FormRegistroMedico();
         proximo.setVisible(true);
-    }//GEN-LAST:event_bnt_prosseguirActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -73,26 +73,26 @@ public class JFrameWork extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(JFrameWork.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaInicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(JFrameWork.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaInicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(JFrameWork.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaInicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(JFrameWork.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaInicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new JFrameWork().setVisible(true);
+                new TelaInicio().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton bnt_prosseguir;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
